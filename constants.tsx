@@ -13,27 +13,27 @@ export const SOCIAL_LINKS: LinkItem[] = [
 ];
 
 export const PROJECTS: Project[] = [
-  { id: '1', title: 'لعبة Biopulse', imageUrl: 'assest/Untitled.png', category: 'تطوير ألعاب' },
-  { id: '2', title: 'موقع تعليمي تفاعلي', imageUrl: 'assest/5b338eb5-ec9a-4207-a78b-390aedb56600.png', category: 'تطوير مواقع' },
+  { id: '1', title: 'لعبة Biopulse', imageUrl: 'Untitled.png', category: 'تطوير ألعاب' },
+  { id: '2', title: 'موقع تعليمي تفاعلي', imageUrl: '5b338eb5-ec9a-4207-a78b-390aedb56600.png', category: 'تطوير مواقع' },
 ];
 
 export const HIGHLIGHTS: Highlight[] = [
   { 
     id: '1', 
     title: 'Computer Classic', 
-    imageUrl: 'assest/457874294_1052403342601752_5133005500537056066_n.jpg', // استبدلها بصورة البوست الحقيقية
+    imageUrl: '457874294_1052403342601752_5133005500537056066_n.jpg', // استبدلها بصورة البوست الحقيقية
     postUrl: 'https://www.instagram.com/p/C_fgBSdiXQM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' // رابط البوست من إنستجرام
   },
   { 
     id: '2', 
     title: 'Coding Tips', 
-    imageUrl: 'assest/ps.PNG',
+    imageUrl: 'ps.PNG',
     postUrl: 'https://www.instagram.com/reel/DTNRNMIjSX7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
   { 
     id: '3', 
     title: 'NileDev Live', 
-    imageUrl: 'assest/462053750_435917002399076_1749888022422791682_n.jpg',
+    imageUrl: '462053750_435917002399076_1749888022422791682_n.jpg',
     postUrl: 'https://www.instagram.com/p/DAyjAyxi6yc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
 ];
