@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NileDev | Link-in-Bio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #050505;
+        }
+        .pixel-font {
+            font-family: 'Silkscreen', cursive;
+        }
+        .spiderweb-bg {
+            background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0 L200 200 M200 0 L0 200 M100 0 L100 200 M0 100 L200 100 M50 0 L150 200 M150 0 L50 200 M0 50 L200 150 M0 150 L200 50' stroke='%2310b981' stroke-width='0.5' fill='none' opacity='0.1'/%3E%3C/svg%3E");
+        }
+        .pixel-border-box {
+            box-shadow: 
+                0 -4px 0 0 #10b981,
+                0 4px 0 0 #10b981,
+                -4px 0 0 0 #10b981,
+                4px 0 0 0 #10b981;
+            background: #050505;
+            border: 4px solid #064e3b;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        /* Swiper Overrides */
+        .swiper-pagination-bullet {
+            background: #064e3b !important;
+            opacity: 1 !important;
+        }
+        .swiper-pagination-bullet-active {
+            background: #10b981 !important;
+            box-shadow: 0 0 10px #10b981;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "swiper": "https://esm.sh/swiper@11.1.4",
+    "swiper/modules": "https://esm.sh/swiper@11.1.4/modules",
+    "swiper/": "https://esm.sh/swiper@11.1.4/",
+    "@/": "./"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="text-white">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
